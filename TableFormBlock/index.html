@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Б. верстка, таблицы, формы</title>
+</head>
+<body>
+
+<section class="section_step"> <!-- НАЧАЛО ПЕРВОГО ЗАДАНИЯ -->
+    <table width="35%">
+        <caption>Сводная таблица с данными</caption>
+        <tr>
+            <th></th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+        <tr>
+            <td>Золото</td>
+            <td rowspan="2">5643</td>
+            <td>4533</td>
+            <td>7897</td>
+        </tr>
+        <tr>
+            <td>Бриллианты</td>
+            <td>31234</td>
+            <td>5432</td>
+        </tr>
+        <tr>
+            <td>Валюта</td>
+            <td>43533</td>
+            <td colspan="2" align="center">34533</td>
+        </tr>
+    </table>
+</section> <!-- КОНЕЦ ПЕРВОГО ЗАДАНИЯ -->
+
+<section class="section_step"> <!-- НАЧАЛО ВТОРОГО ЗАДАНИЯ -->
+    <h1>Запись на курсы программирования</h1>
+    <form>
+        <div>Имя:</div>
+        <input type="text" placeholder="Андрей">
+        <p>
+        <div>
+        <input type="radio" id="Java" name="lang_select">
+        <label for="Java">Java</label>
+
+        <input type="radio" id="C++" name="lang_select">
+        <label for="C++">C++</label>
+
+        <input type="radio" id="Python" name="lang_select">
+        <label for="Python">Python</label>
+
+        <input type="radio" id="PHP" name="lang_select">
+        <label for="PHP">PHP</label>
+
+        <input type="radio" id="JavaScript" name="lang_select">
+        <label for="JavaScript">JavaScript</label>
+        </div>
+        </p>
+        <p>
+        <div>Дополнительная информация:</div>
+        <textarea style="height: 65px; width: 180px" placeholder="Есть опыт программирования на Java"></textarea>
+        </p>
+        <p>
+        <div>Секретное слово:</div>
+        <input type="password">
+        </p>
+        <p>
+         <input type="checkbox" id="rule_accept">
+            <label for="rule_accept">С правилами ознакомился и согласен</label>
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить">
+        </p>
+    </form>
+</section> <!-- КОНЕЦ ВТОРОГО ЗАДАНИЯ -->
+
+<section class="section_step font"> <!-- НАЧАЛО ТРЕТЬЕГО ЗАДАНИЯ -->
+    <div class="flex_level card_container">
+        <div class="card">
+            <div style="background: #269F5D" class="card_up"><div class="num_size" style="color: white">3</div></div>
+            <div><div class="card_down"><div class="mg_l_10">Card 3</div></div></div>
+        </div>
+        <div class="card">
+            <div style="background: #65C2DC" class="card_up"><div class="num_size">1</div></div>
+            <div><div class="card_down"><div class="mg_l_10">Card 1</div></div></div>
+        </div>
+        <div class="card">
+            <div style="background: #EEBC40" class="card_up"><div class="num_size" style="color: white">2</div></div>
+            <div><div class="card_down"><div class="mg_l_10">Card 2</div></div></div>
+        </div>
+    </div>
+</section> <!-- КОНЕЦ ТРЕТЬЕГО ЗАДАНИЯ -->
+</body>
+</html>
