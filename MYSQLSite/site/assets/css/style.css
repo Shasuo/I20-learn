@@ -1,0 +1,46 @@
+body{margin: 0; background: #E5E5E5; font-family: 'Montserrat', sans-serif; transition: .4s; opacity: 0}
+.category__list-container{width: 100%; height: 100vh; display: flex; align-items: center}
+.category__list{display: flex; justify-content: space-between; width: 1500px; margin-left: auto; margin-right: auto}
+.category__list-block{ width: 400px; height: 500px; position: relative; overflow: hidden; display: flex; align-items: end; border-radius: 5px}
+.category__list-block-bg{position: absolute; width: 100%; height: 100%; transition: .3s}
+.category__list-block:hover .category__list-block-bg{transform: scale(1.1); transition: .3s}
+.category__list-block__headline{font-size: 32px; font-weight: 700; background: white; color: black; position: relative; z-index: 3; width: 100%; text-transform: uppercase; padding: 20px 10px; }
+.productCount{font-size: 22px; font-weight: 500; letter-spacing: 2px; padding: 5px 10px;}
+.productCount-span{font-weight: 700}
+
+.productList{max-width: 1500px; margin-right: auto; margin-left: auto; margin-top: 150px; padding-bottom: 200px}
+.productList__head-IMG{width: 100%; height: 300px; margin-top: 30px; border-top-left-radius: 10px; border-top-right-radius: 10px}
+.productList__head-headline{font-size: 48px; font-weight: 700; text-transform: uppercase; letter-spacing: 3px; background: white; padding: 10px 10px}
+.productList__head{}
+.productList__head-link{font-weight: 500; font-size: 22px; color: #575757; text-decoration: underline;}
+.productList__head-link:hover{opacity: .5}
+.productList__products{display: flex; flex-wrap: wrap; margin-top: 20px; padding-bottom: 60px}
+.productList__productBlock{width: 320px; overflow: hidden; margin-top: 50px; border-radius: 10px; color: black;}
+.productList__productBlock__mg{margin-left: 73.3px}
+.productList__productBlock:hover .productList__productBlock-IMG{cursor: pointer; transform: scale(1.1); transition: .3s}
+.productList__productBlock-IMG{width: 320px; height: 400px; transition: .3s; background: gray}
+.productList__productBlock-headline{font-weight: 700; font-size: 18px; text-transform: uppercase; background: black; color: white; padding: 5px 10px; max-width: 300px; position: relative; z-index: 3}
+.productList__productBlock-subtitleCategory{font-size: 16px; font-weight: 500; margin-top: 10px}
+.productList__head-subtitle{font-weight: 500; color: #575757; font-size: 32px;}
+
+.productZone{max-width: 1500px; margin-left: auto; margin-right: auto; margin-top: 150px; padding-bottom: 200px}
+.productZone__link{font-weight: 500; font-size: 22px; color: #575757; text-decoration: underline;}
+.productZone-product{display: flex; margin-top: 40px}
+.productZone-product__IMG{width: 500px; height: 600px;}
+.productZone-product__info{margin-left: 30px; width: 970px}
+.productZone-product__infoZone__headline{background: black; color: white; font-size: 22px; font-weight: 700; padding: 10px 20px; text-transform: uppercase; max-width: fit-content; letter-spacing: 3px}
+.productText{font-size: 22px; font-weight: 500; margin-top: 10px; background: white; padding: 5px 20px;}
+.productZone-product__infoZone__mg{margin-top: 30px}
+.productZone-product__slider{width: 500px; height: 600px; overflow: hidden;}
+.productZone-product__slider-tape{height: 600px; transition: .5s; display: flex}
+.productZone-product__sliderZone-arrows{display: flex; justify-content: space-between; margin-top: 15px}
+.productSliderArrow{width: 60px; height: 60px}
+.productSliderArrow:hover{opacity: .5; cursor: pointer}
+
+.pageNumberZone{width: 100%; display: flex; justify-content: center}
+.pageNumberLink{font-weight: 500; font-size: 22px; color: #575757; padding-left: 5px; padding-right: 5px}
+.pageNumberLink:hover{color: black}
+
+
+a{text-decoration: none}
+.bg-opt{background-size: cover; background-position: center center; background-repeat: no-repeat}
